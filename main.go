@@ -10,7 +10,7 @@ import (
 
 func handler(w http.ResponseWriter, r *http.Request) {
 	time.Sleep(100 * time.Millisecond)
-	fmt.Fprintln(w, "Bonjour Rio!!")
+	fmt.Fprintln(w, "Hello Rio!!")
 }
 
 func main() {
